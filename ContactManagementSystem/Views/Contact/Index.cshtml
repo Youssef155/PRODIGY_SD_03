@@ -1,0 +1,15 @@
+﻿@model List<ContactManagementSystem.Models.ContactInfoViewModel>
+
+
+
+<ul>
+    @foreach(var item in Model)
+    {
+        <li>@item.Name</li>
+        <li>@item.PhoneNumber</li>
+        <li>@item.Email</li>
+
+        <hr />
+
+    }
+</ul>
